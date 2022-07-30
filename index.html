@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+
+<body>
+    <div id="photo">
+        <a>
+            <p onclick="takeshot()">Take SS</p>
+        </a>
+    </div>
+    <div class="wrapper" id="wrapper" contenteditable="true">
+        <p class="editable">Cool text generator. Click here and edit this to whatever you like:)</p>
+    </div>
+    <div id="result">
+        <h1>Screenshot:</h1>
+        <div id="output" ></div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

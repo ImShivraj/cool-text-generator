@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+#photo{
+    display: inline-block;
+    padding: 0px 30px;
+    border: 2px solid red;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+
+.wrapper{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40px;
+    padding: 90px 50px;
+    /* overflow-x: hidden; */
+}
+
+.editable{
+    color: blue;
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+
+}
+
+#result{
+    display: flex;
+    
+    
+}
